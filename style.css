@@ -1,0 +1,47 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.clock {
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.clock__hand-hours {
+    width: 200px;
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;;
+    left: 50%;
+    transform: translate(0, -50%);
+
+}
+
+.clock__hand-minutes {
+    width: 200px;
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;;
+    left: 50%;
+    transform: translate(0, -50%);
+
+}
+
+.clock__hand-seconds {
+    width: 200px;
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;;
+    left: 50%;
+    transform: translate(0, -50%);
+
+}
